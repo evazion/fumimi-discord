@@ -150,6 +150,7 @@ GEM
     opus-ruby (1.0.1)
       ffi
     os (1.1.0)
+    pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -203,6 +204,7 @@ DEPENDENCIES
   fumimi-discord!
   mechanize
   minitest (~> 5.0)
+  pg (~> 1.2)
   pry (~> 0.10)
   pry-byebug (~> 3.4)
   rake (~> 13.0)

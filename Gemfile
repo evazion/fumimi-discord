@@ -7,3 +7,5 @@ gem "discordrb", "~> 3.3", require: false
 gem "ruby-booru", git: "https://github.com/evazion/ruby-booru"
 gem "mechanize"
 gem "addressable"
+
+gem "pg", "~> 1.2"

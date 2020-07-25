@@ -392,5 +392,4 @@ class Fumimi::BQ
   end
 
   include ReportMethods
-  include SearchMethods
 end

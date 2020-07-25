@@ -37,8 +37,6 @@ def main(options)
     server_id: ENV["DISCORD_SERVER_ID"].to_i,
     client_id: ENV["DISCORD_CLIENT_ID"],
     token: ENV["DISCORD_TOKEN"],
-    bitly_username: ENV["BITLY_USERNAME"],
-    bitly_api_key: ENV["BITLY_API_KEY"],
     log: log,
   })
 
