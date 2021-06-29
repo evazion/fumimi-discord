@@ -116,6 +116,11 @@ module Fumimi::Events
     event.send_message "https://github.com/danbooru/danbooru/issues/#{issue_id}"
   end
 
+  respond(:pull_id, /pull #[0-9]+/i) do |event, text|
+    pull_id = text[/[0-9]+/]
+    event.send_message "https://github.com/danbooru/danbooru/pull/#{pull_id}"
+  end
+
   def do_convert_post_links(event)
     post_ids = []
 
